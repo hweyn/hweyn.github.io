@@ -1,0 +1,19 @@
+﻿<div class="theelement">
+    @Time
+    <br />
+    <b>
+        @Training <br />
+    </b>
+    <span>
+        <i class="bi-geo-alt"></i> @Location
+    </span>
+</div>
+
+@code {
+    [Parameter]
+    public string? Time { get; set; }
+    [Parameter]
+    public string? Training { get; set; }
+    [Parameter]
+    public string? Location { get; set; }
+}

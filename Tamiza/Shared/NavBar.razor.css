@@ -1,0 +1,30 @@
+.thenavbar {
+    background-color: black;
+    position: absolute;
+    width: 400px;
+    min-width: fit-content;
+    top: 40px;
+    right: 0px;
+    opacity: 0.6;
+    padding: 8px 0;
+    margin-right: -25px;
+    padding-right: 55px;
+    font-size: 24px;
+    z-index: 10000;
+    transform: skew(-20deg);
+    display: flex;
+
+    > a {
+        color: white;
+        text-decoration: none;
+        padding-left: 25px;
+        transform: skew(20deg);
+
+        &:hover {
+            color: gold;
+        }
+    }
+}
+.firstelement {
+    padding-left: 35px !important
+}
