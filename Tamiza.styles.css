@@ -1,44 +1,46 @@
 /* /Pages/TrainingElement.razor.rz.scp.css */
 /* /Pages/Trainingen.razor.rz.scp.css */
 .trainingEl[b-g1tnte2hg6] {
-    height: 100px;
-    opacity: 0.8;
-    position: absolute;
-    /*width: 15%;*/
-    border-radius: 5px;
+    width: 20%;
     color: white;
-    padding: 5px 0 5px 15px ;
-/*TODO: look here*/
+    opacity: 0.8;
+    border-radius: 5px;
+    position: absolute;
+    padding: 5px 0 5px 15px;
 }
+
+/* headers and rows */
 
 th[b-g1tnte2hg6] {
     text-align: center;
 }
 
-    th.ma[b-g1tnte2hg6], .di[b-g1tnte2hg6], .do[b-g1tnte2hg6], .za[b-g1tnte2hg6] {
-        color: lightgrey
-    }
+th.ma[b-g1tnte2hg6], .di[b-g1tnte2hg6], .do[b-g1tnte2hg6], .za[b-g1tnte2hg6] {
+    color: lightgrey
+}
 
 td[b-g1tnte2hg6] {
+    height: 60px;
     border-bottom: 1px solid grey;
     vertical-align: top;
     text-align: left;
-    height: 50px;
 }
+ 
+/* columns */
 
 .time[b-g1tnte2hg6] {
     width: 5%
 }
 
 .ma[b-g1tnte2hg6], .di[b-g1tnte2hg6], .do[b-g1tnte2hg6], .za[b-g1tnte2hg6] {
-    width: 10%
+    width: 10%;
 }
 
 .wo[b-g1tnte2hg6], .vrij[b-g1tnte2hg6], .zo[b-g1tnte2hg6] {
-    width: 15%
+    width: 20%
 }
 
-
+/* location */
 
 .belsele[b-g1tnte2hg6] {
     background-color: gold;
@@ -50,22 +52,24 @@ td[b-g1tnte2hg6] {
     color: white;
 }
 
-
+/* duration */
 
 .duur-90[b-g1tnte2hg6] {
-    height: 74px;
+    height: 90px;
 }
 
 .duur-210[b-g1tnte2hg6] {
-    height: 175px;
+    height: 210px;
 }
 
+/* start */
+
 .half[b-g1tnte2hg6] {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .kwart[b-g1tnte2hg6] {
-    margin-top: 12px;
+    margin-top: 15px;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .headerimg[b-8v1vsuji7h] {
