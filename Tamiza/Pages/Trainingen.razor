@@ -1,8 +1,7 @@
 ﻿@page "/trainingen"
 @inject IJSRuntime JS
-
 <h1>Trainingen</h1>
-<table style="width: 100%">
+<table class="d-none d-md-table" style="width: 100%">
     <tr>
         <th class="time"></th>
         <th class="ma">ma</th>
@@ -143,11 +142,47 @@
     </tr>
 </table>
 
+<div class="d-md-none"> 
+    Jeugd (8-13 jaar)
+    <ul>
+        <li>
+            <b>Kendo</b>
+            <ul>
+                <li>Woensdag van 18:00 tot 20:00 in <span @onclick="ScrollToBelsele">Belsele</span></li>
+            </ul>
+        </li>
+    </ul>
+    Volwassenen
+    <ul>
+         <li>
+            <b>Kendo</b>
+            <ul>
+                <li>Woensdag van 19:30 tot 21:30 in <span @onclick="ScrollToBelsele">Belsele</span></li>
+                <li>Zondag van 15:30 tot 17:00 in <span @onclick="ScrollToStNiklaas">Sint-Niklaas</span></li>
+            </ul>
+        </li>
+        <li>
+            <b>Jodo (Koryu)</b>
+            <ul>
+                <li>Vrijdag van 21:15 tot 22:45 in <span @onclick="ScrollToStNiklaas">Sint-Niklaas</span></li>
+            </ul>
+        </li>
+                <li>
+            <b>Iaido</b>
+            <ul>
+                <li>Zondag van 14:00 tot 15:30 in <span @onclick="ScrollToStNiklaas">Sint-Niklaas</span></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<h1>Locaties</h1>
 <h3 id="belsele">Belsele</h3>
 <h4>Dojo Budokwai Belsele</h4>
 <div>
     Koutermolenstraat 8b, 9111 Belsele
 </div>
+
 @*<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20023.566037478122!2d4.066215527204208!3d51.146351421757394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c38fa13595dbb7%3A0xa2ceff430700b31c!2sKoutermolenstraat%208b%2C%209111%20Sint-Niklaas!5e0!3m2!1snl!2sbe!4v1681245824459!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>*@
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20023.566037478122!2d4.066215527204208!3d51.146351421757394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c38fa13595dbb7%3A0xa2ceff430700b31c!2sKoutermolenstraat%208b%2C%209111%20Sint-Niklaas!5e0!3m2!1snl!2sbe!4v1681245824459!5m2!1snl!2sbe" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 

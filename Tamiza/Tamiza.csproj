@@ -8,13 +8,13 @@
 
   <ItemGroup>
     <None Remove="Pages\TrainingElement.razor.css" />
-    <None Remove="Pages\Trainingen.razor.css" />
+    <None Remove="Pages\Trainingen.razor.scss" />
     <None Remove="Shared\NavBar.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Pages\TrainingElement.razor.css" />
-    <Content Include="Pages\Trainingen.razor.css" />
+    <Content Include="Pages\Trainingen.razor.scss" />
     <Content Include="Shared\NavBar.razor.css" />
   </ItemGroup>
 
@@ -26,5 +26,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
-
+	<ItemGroup>
+		<Watch Include="**\*.css"></Watch>
+	</ItemGroup>
 </Project>
