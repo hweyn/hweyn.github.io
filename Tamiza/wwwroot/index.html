@@ -21,6 +21,9 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        window.scrollTo = (tag) => { document.getElementById(tag)?.scrollIntoView(); }
+    </script>
 </body>
 
 </html>
