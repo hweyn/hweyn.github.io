@@ -1,28 +1,30 @@
 ﻿.trainingEl {
-    height: 100px;
-    opacity: 0.8;
-    position: absolute;
-    /*width: 15%;*/
-    border-radius: 5px;
+    width: 15%;
     color: white;
-    padding: 5px 0 5px 15px ;
-/*TODO: look here*/
+    opacity: 0.8;
+    border-radius: 5px;
+    position: absolute;
+    padding: 5px 0 5px 15px;
 }
+
+/* headers and rows */
 
 th {
     text-align: center;
 }
 
-    th.ma, .di, .do, .za {
-        color: lightgrey
-    }
+th.ma, .di, .do, .za {
+    color: lightgrey
+}
 
 td {
+    height: 60px;
     border-bottom: 1px solid grey;
     vertical-align: top;
     text-align: left;
-    height: 50px;
 }
+
+/* columns */
 
 .time {
     width: 5%
@@ -36,7 +38,7 @@ td {
     width: 15%
 }
 
-
+/* location */
 
 .belsele {
     background-color: gold;
@@ -48,20 +50,22 @@ td {
     color: white;
 }
 
-
+/* duration */
 
 .duur-90 {
-    height: 74px;
+    height: 90px;
 }
 
 .duur-210 {
-    height: 175px;
+    height: 210px;
 }
 
+/* start */
+
 .half {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .kwart {
-    margin-top: 12px;
+    margin-top: 15px;
 }
