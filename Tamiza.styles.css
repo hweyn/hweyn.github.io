@@ -100,31 +100,60 @@ td[b-g1tnte2hg6] {
 .thenavbar[b-kfq0ybtre2] {
     background-color: black;
     position: absolute;
-    width: 400px;
     min-width: fit-content;
     top: 40px;
     right: 0px;
     opacity: 0.6;
-    padding: 8px 0;
-    margin-right: -25px;
-    padding-right: 55px;
-    font-size: 24px;
     z-index: 10000;
-    transform: skew(-20deg);
     display: flex;
+    font-size: 24px;
 
-    > a {
+    &.large {
+        > a {
+            color: white;
+            text-decoration: none;
+            padding-left: 25px;
+            transform: skew(20deg);
+            &:hover {
+                color: gold;
+            }
+            .firstelement[b-kfq0ybtre2] {
+                padding-left: 35px !important
+            }
+        }
+        padding: 8px 0;
+        margin-right: -25px;
+        padding-right: 55px;
+        transform: skew(-20deg);
+        width: 400px;[b-kfq0ybtre2]
+    }
+
+    &.small[b-kfq0ybtre2] {
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 6px;
         color: white;
-        text-decoration: none;
-        padding-left: 25px;
-        transform: skew(20deg);
-
-        &:hover {
-            color: gold;
+        justify-content: center;
+        > ul {
+            list-style:none;
+            padding: 10px 15px 0 0;
+            > li > a {
+                color: white;
+                text-decoration: none;
+                padding-left: 25px;
+                transform: skew(20deg);
+                &:hover {
+                        color: gold;
+                }
+            }
+        }
+    
+        &.menu[b-kfq0ybtre2] {
+            top: 90px;
+            height: fit-content;
+            font-size: 18px;
+            align-content:center;
         }
     }
 }
-.firstelement[b-kfq0ybtre2] {
-    padding-left: 35px !important
-}
-/* /Shared/NavMenu.razor.rz.scp.css */
