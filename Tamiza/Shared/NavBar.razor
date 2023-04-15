@@ -1,21 +1,70 @@
-<div class="thenavbar">
-    <NavLink  href="" Match="NavLinkMatch.All">
-        <span class="element firstelement">
-        Home
-        </span>
-    </NavLink>
-    <NavLink class="element" href="trainingen">
-        Trainingen
-    </NavLink>
-    <NavLink class="element" href="contact">
-        Contact
-    </NavLink>
-    <NavLink class="element" href="inschrijven">
-        Inschrijven
-    </NavLink>
-    <NavLink class="element" href="info">
-        Wat is Kendo?
-    </NavLink>
+<div class="d-none d-md-table">
+    <div class="thenavbar large">
+        <NavLink href="" Match="NavLinkMatch.All">
+            <span class="element firstelement">
+                Home
+            </span>
+        </NavLink>
+        <NavLink class="element" href="trainingen">
+            Trainingen
+        </NavLink>
+        <NavLink class="element" href="contact">
+            Contact
+        </NavLink>
+        <NavLink class="element" href="inschrijven">
+            Inschrijven
+        </NavLink>
+        <NavLink class="element" href="info">
+            Wat is Kendo?
+        </NavLink>
+    </div>
+</div>
+<div class="d-md-none">
+    <div class="thenavbar small cursor-pointer" @onclick="ToggleOpened">
+        <i class="bi bi-list"></i>
+    </div>
+    @if (opened)
+    {
+
+        <div class="thenavbar small menu">
+            <ul>
+                <li>
+                    <NavLink href="" Match="NavLinkMatch.All">
+                        <span class="element firstelement">
+                            Home
+                        </span>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="element" href="trainingen">
+                        Trainingen
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="element" href="contact">
+                        Contact
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="element" href="inschrijven">
+                        Inschrijven
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="element" href="info">
+                        Wat is Kendo?
+                    </NavLink>
+                </li>
+            </ul>
+        </div>
+    }
 </div>
 
+@code {
+    private bool opened = true;
+    private void ToggleOpened()
+    {
+        opened = !opened;
+    }
+}
 
