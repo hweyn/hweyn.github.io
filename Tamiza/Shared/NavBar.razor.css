@@ -36,6 +36,9 @@
         border-radius: 6px;
         color: white;
         justify-content: center;
+        &.icon {
+                  padding-top: 2px;
+        }
         > ul {
             list-style:none;
             padding: 10px 15px 0 0;
