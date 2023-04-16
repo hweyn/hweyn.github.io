@@ -4,6 +4,9 @@
 html, body {
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
+body {
+    overflow-x: hidden;
+}
 
 h1:focus {
     outline: none;

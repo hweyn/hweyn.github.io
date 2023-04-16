@@ -1,12 +1,14 @@
-/* /Pages/TrainingElement.razor.rz.scp.css */
 /* /Pages/Trainingen.razor.rz.scp.css */
+.table[b-g1tnte2hg6] {
+    width: 100%;
+    position: relative;
+}
 .trainingEl[b-g1tnte2hg6] {
     width: 20%;
     color: white;
     opacity: 0.8;
     border-radius: 5px;
     position: absolute;
-    padding: 5px 0 5px 15px;
 }
 
 /* headers and rows */
@@ -16,7 +18,7 @@ th[b-g1tnte2hg6] {
 }
 
 th.ma[b-g1tnte2hg6], .di[b-g1tnte2hg6], .do[b-g1tnte2hg6], .za[b-g1tnte2hg6] {
-    color: lightgrey
+    color: lightgrey;
 }
 
 td[b-g1tnte2hg6] {
@@ -29,16 +31,18 @@ td[b-g1tnte2hg6] {
 /* columns */
 
 .time[b-g1tnte2hg6] {
-    width: 5%
+    width: 4%
 }
 
 .ma[b-g1tnte2hg6], .di[b-g1tnte2hg6], .do[b-g1tnte2hg6], .za[b-g1tnte2hg6] {
-    width: 10%;
+    width: 9%;
 }
 
+
 .wo[b-g1tnte2hg6], .vrij[b-g1tnte2hg6], .zo[b-g1tnte2hg6] {
-    width: 20%
+    width: 20%;
 }
+
 
 /* location */
 
@@ -71,6 +75,28 @@ td[b-g1tnte2hg6] {
 .kwart[b-g1tnte2hg6] {
     margin-top: 15px;
 }
+/* /Shared/Footer.razor.rz.scp.css */
+#thefooter[b-9osb6fh9aw] {
+    margin-top: 80px;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0,0,0, 0.1);
+}
+
+    .logoimg[b-9osb6fh9aw] {
+        height: 80px;
+        width: 80px;
+    }
+
+    #footertext[b-9osb6fh9aw] {
+        > a {
+            font-size: small;
+            text-decoration: none;
+            color: inherit;
+        }
+    }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .headerimg[b-8v1vsuji7h] {
     height: 340px;
@@ -80,21 +106,21 @@ td[b-g1tnte2hg6] {
     opacity: 0.6;
 }
 
-.logoimg[b-8v1vsuji7h] {
-    top: 20px;
-    left: 25px;
+.logo-container[b-8v1vsuji7h] {
     position: absolute;
     z-index: 100;
-    height: 250px;
-    width: 250px;
+    left: 25px;
+    top: 20px;
+}
+
+.logoimg[b-8v1vsuji7h] {
+    height: 20vw;
+    max-height: 200px;
 }
 
 .headertext[b-8v1vsuji7h] {
-    position: absolute;
-    top: 230px;
-    left: 50px;
+    top:230px;
     color: white;
-    font-weight: bold;
 }
 /* /Shared/NavBar.razor.rz.scp.css */
 .thenavbar[b-kfq0ybtre2] {
@@ -135,7 +161,10 @@ td[b-g1tnte2hg6] {
         border-radius: 6px;
         color: white;
         justify-content: center;
-        > ul {
+        &.icon {
+                  padding-top: 2px;
+        }
+        > ul[b-kfq0ybtre2] {
             list-style:none;
             padding: 10px 15px 0 0;
             > li > a {
