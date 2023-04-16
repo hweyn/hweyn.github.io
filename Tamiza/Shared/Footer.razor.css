@@ -1,0 +1,21 @@
+﻿#thefooter {
+    margin-top: 80px;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0,0,0, 0.1);
+}
+
+    .logoimg {
+        height: 80px;
+        width: 80px;
+    }
+
+    #footertext {
+        > a {
+            font-size: small;
+            text-decoration: none;
+            color: inherit;
+        }
+    }
