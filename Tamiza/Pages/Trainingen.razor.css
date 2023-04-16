@@ -1,10 +1,13 @@
-﻿.trainingEl {
+﻿.table {
+    width: 100%;
+    position: relative;
+}
+.trainingEl {
     width: 20%;
     color: white;
     opacity: 0.8;
     border-radius: 5px;
     position: absolute;
-    padding: 5px 0 5px 15px;
 }
 
 /* headers and rows */
@@ -14,7 +17,7 @@ th {
 }
 
 th.ma, .di, .do, .za {
-    color: lightgrey
+    color: lightgrey;
 }
 
 td {
@@ -27,16 +30,18 @@ td {
 /* columns */
 
 .time {
-    width: 5%
+    width: 4%
 }
 
 .ma, .di, .do, .za {
-    width: 10%;
+    width: 9%;
 }
 
+
 .wo, .vrij, .zo {
-    width: 20%
+    width: 20%;
 }
+
 
 /* location */
 
