@@ -1,0 +1,57 @@
+﻿#intro {
+    display: flex;
+    > div > p {
+          text-align: justify;
+      }
+.begrippen {
+    margin-top: 65px;
+    background-color: rgb(0,0,0,0.1);
+    max-width: fit-content;
+    height: max-content;
+    .row {
+    padding: 4px 2px;
+    .col-12 {
+    text-align: center;
+            }
+         }
+    .row:first-child, .row:nth-child(2n+3) {
+    background-color:rgb(255, 255, 255, 0.9);
+    }
+}
+}
+
+.knowmore {
+    display: flex;
+    .title {
+               display: flex;
+               flex-direction: column;
+               align-content: center;
+               justify-content: center;
+               #firstpar {
+                             justify-content: center;
+                         }
+           }
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    .row {
+             width: 100%;
+             justify-content: center;
+         }
+    .item {
+              background-color: rgb(0,0,0,0.1);
+              padding: 15px;
+              border-radius: 5px;
+              margin: 5px;
+              height: 100px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 20%;
+              &:hover {
+                          background-color: rgb(0,0,0,0.2);
+                      }
+          }
+}
+}

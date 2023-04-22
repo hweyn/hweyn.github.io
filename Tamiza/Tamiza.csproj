@@ -7,12 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Pages\Home.razor.css" />
+    <None Remove="Pages\Kendo.razor.css" />
     <None Remove="Pages\Trainingen.razor.css" />
     <None Remove="Shared\Footer.razor.css" />
     <None Remove="Shared\NavBar.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Pages\Home.razor.css" />
+    <Content Include="Pages\Kendo.razor.css" />
     <Content Include="Pages\Trainingen.razor.css" />
     <Content Include="Shared\Footer.razor.css" />
     <Content Include="Shared\NavBar.razor.css" />
@@ -30,6 +34,8 @@
 		<Watch Include="**\*.css"></Watch>
 	</ItemGroup>
 	<ItemGroup>
+	  <Watch Remove="Pages\Home.razor.css" />
+	  <Watch Remove="Pages\Kendo.razor.css" />
 	  <Watch Remove="Shared\Footer.razor.css" />
 	</ItemGroup>
 </Project>
