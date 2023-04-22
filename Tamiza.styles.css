@@ -1,3 +1,73 @@
+/* /Pages/Home.razor.rz.scp.css */
+.federations[b-lejdoku167] {
+    > li {
+        padding: 5px 20px;
+        margin: 5px;
+        border-radius: 5px;
+        > a {
+            text-decoration: none;
+            color: inherit;
+            }
+    }
+}
+/* /Pages/Kendo.razor.rz.scp.css */
+#intro[b-1x0d843tj3] {
+    display: flex;
+    > div > p {
+          text-align: justify;
+      }
+.begrippen[b-1x0d843tj3] {
+    margin-top: 65px;
+    background-color: rgb(0,0,0,0.1);
+    max-width: fit-content;
+    height: max-content;
+    .row {
+    padding: 4px 2px;
+    .col-12 {
+    text-align: center;
+            }
+         }
+    .row:first-child[b-1x0d843tj3], .row:nth-child(2n+3)[b-1x0d843tj3] {
+    background-color:rgb(255, 255, 255, 0.9);
+    }
+}
+}
+
+.knowmore[b-1x0d843tj3] {
+    display: flex;
+    .title {
+               display: flex;
+               flex-direction: column;
+               align-content: center;
+               justify-content: center;
+               #firstpar {
+                             justify-content: center;
+                         }
+           }
+.links[b-1x0d843tj3] {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    .row {
+             width: 100%;
+             justify-content: center;
+         }
+    .item[b-1x0d843tj3] {
+              background-color: rgb(0,0,0,0.1);
+              padding: 15px;
+              border-radius: 5px;
+              margin: 5px;
+              height: 100px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 20%;
+              &:hover {
+                          background-color: rgb(0,0,0,0.2);
+                      }
+          }
+}
+}
 /* /Pages/Trainingen.razor.rz.scp.css */
 .table[b-g1tnte2hg6] {
     width: 100%;
@@ -98,12 +168,15 @@ td[b-g1tnte2hg6] {
         }
     }
 /* /Shared/MainLayout.razor.rz.scp.css */
+.header-container[b-8v1vsuji7h] {
+}
 .headerimg[b-8v1vsuji7h] {
-    height: 340px;
-    width: 100%;
+    height: 500px;
+    width: 150%;
     object-fit: cover;
     object-position: bottom;
     opacity: 0.6;
+    margin-top:-140px;
 }
 
 .logo-container[b-8v1vsuji7h] {
@@ -116,6 +189,9 @@ td[b-g1tnte2hg6] {
 .logoimg[b-8v1vsuji7h] {
     height: 20vw;
     max-height: 200px;
+}
+
+.navbar-container[b-8v1vsuji7h] {
 }
 
 .headertext[b-8v1vsuji7h] {
